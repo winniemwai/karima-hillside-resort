@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: beige;
+}
+header {
+  background-color: darkgreen;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.logo a {
+  font-family: dancing script;
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+}
+.nav-links {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+.nav-links li {
+  margin-left: 1rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: lightgreen;
+}
