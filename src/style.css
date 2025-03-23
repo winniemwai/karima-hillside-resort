@@ -114,12 +114,10 @@ img {
   color: white;
 }
 .garden-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto 1fr;
-  grid-auto-rows: minmax(200px, auto);
   gap: 2rem;
 }
 .crops,
@@ -139,13 +137,6 @@ img {
   text-align: center;
   font-family: dancing script;
 }
-
-.crops {
-  grid-template-columns: repeat(2, 1fr);
-}
-.animals {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
 .crop-item,
 .fruit-item,
 .animal-item {
@@ -162,10 +153,27 @@ img {
   margin-bottom: 0.5rem;
   color: darkslategray;
 }
-.crop-list,
-.fruit-list,
-.animal-list {
+
+.camping {
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin-top: 20px;
+  border-radius: 10px;
   display: grid;
+  place-items: center;
+  background-color: darkolivegreen;
+}
+.camping h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+.camping-content {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  display: grid;
+  padding: 2rem;
 }
