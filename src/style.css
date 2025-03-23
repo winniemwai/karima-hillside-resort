@@ -50,6 +50,8 @@ header {
 }
 img {
   width: 200px;
+  border-radius: 4px;
+  height: auto;
 }
 .hero {
   background-image: url("beautiful\ image.jpg");
@@ -115,14 +117,15 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 .crops,
 .animals,
 .fruits {
-  padding: 2rem 0;
-  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
 .crops h3,
 .animals h3,
@@ -131,4 +134,18 @@ img {
   margin-bottom: 1rem;
   color: darkolivegreen;
   text-align: center;
+}
+.crop-item,
+.fruit-item,
+.animal-item {
+  display: grid;
+  padding: 1rem;
+  background-color: white;
+}
+.crop-item h4,
+.animal-item h4,
+.fruit-item h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: darkolivegreen;
 }
