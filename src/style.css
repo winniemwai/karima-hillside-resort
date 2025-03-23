@@ -131,10 +131,11 @@ img {
 .crops h3,
 .animals h3,
 .fruits h3 {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
-  color: darkolivegreen;
+  color: darkorange;
   text-align: center;
+  font-family: dancing script;
 }
 
 .crops {
@@ -157,5 +158,5 @@ img {
 .fruit-item h4 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: darkolivegreen;
+  color: darkslategray;
 }
