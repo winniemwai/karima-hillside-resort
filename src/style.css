@@ -114,10 +114,12 @@ img {
   color: white;
 }
 .garden-content {
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  grid-auto-rows: minmax(200px, auto);
   gap: 2rem;
 }
 .crops,
@@ -159,4 +161,11 @@ img {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: darkslategray;
+}
+.crop-list,
+.fruit-list,
+.animal-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
