@@ -49,9 +49,9 @@ header {
   color: lightgreen;
 }
 img {
-  width: 200px;
   border-radius: 4px;
   height: auto;
+  width: 100%;
 }
 .hero {
   background-image: url("beautiful\ image.jpg");
@@ -125,6 +125,7 @@ img {
 .fruits {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto;
   gap: 1rem;
 }
 .crops h3,
@@ -135,12 +136,21 @@ img {
   color: darkolivegreen;
   text-align: center;
 }
+
+.crops {
+  grid-template-columns: repeat(2, 1fr);
+}
+.animals {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 .crop-item,
 .fruit-item,
 .animal-item {
-  display: grid;
-  padding: 1rem;
   background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
 }
 .crop-item h4,
 .animal-item h4,
