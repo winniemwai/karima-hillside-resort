@@ -68,3 +68,12 @@ img {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: dancing script;
+}
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
