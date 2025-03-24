@@ -94,40 +94,14 @@ img {
   max-width: 800px;
   margin: 0 auto;
   border-radius: 8px;
-  padding: 0.5rem;
+  padding: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   font-family: dancing script;
 }
-.typing-effect {
-  white-space: nowrap;
-  overflow: hidden;
-  width: 0;
-  animation: typing 2s steps(40, end) forwards,
-    blink-caret 0.75s step-end infinite;
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink-caret {
-  from,
-  to {
-    border-right-color: transparent;
-  }
-  50% {
-    border-right-color: black;
-  }
-}
-
 .hero-content p {
   font-size: 1rem;
   margin-bottom: 1rem;
