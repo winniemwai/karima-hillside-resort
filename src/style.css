@@ -68,6 +68,17 @@ img {
   flex-direction: column;
   cursor: pointer;
 }
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+.nav-links.active {
+  display: flex;
+}
 
 .hero {
   background-image: url("beautiful\ image.jpg");
@@ -298,5 +309,21 @@ footer {
   }
   .contact-form {
     padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 0;
+  }
+  .nav-links li {
+    margin: 0 1rem;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
