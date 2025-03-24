@@ -136,6 +136,7 @@ img {
   color: darkorange;
   text-align: center;
   font-family: dancing script;
+  font-weight: 800;
 }
 .crop-item,
 .fruit-item,
@@ -176,4 +177,10 @@ img {
   background-color: white;
   display: grid;
   padding: 2rem;
+}
+.contact {
+  padding: 2rem 0;
+  background-color: #6f866c;
+  display: grid;
+  place-items: center;
 }
