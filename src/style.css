@@ -233,3 +233,54 @@ footer {
   padding: 1rem 0;
   display: grid;
 }
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-links {
+    margin-top: 1rem;
+  }
+  .nav-links li {
+    margin-left: 0;
+  }
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .about h2 {
+    font-size: 2rem;
+  }
+  .about-content {
+    padding: 1rem;
+  }
+  .garden h2 {
+    font-size: 2rem;
+  }
+  .garden-content {
+    padding: 1rem;
+  }
+  .crops h3,
+  .animals h3,
+  .fruits h3 {
+    font-size: 2rem;
+  }
+  .crop-item h4,
+  .animal-item h4,
+  .fruit-item h4 {
+    font-size: 1rem;
+  }
+  .camping h2 {
+    font-size: 2rem;
+  }
+  .camping-content {
+    padding: 1rem;
+  }
+  .contact h2 {
+    font-size: 2rem;
+  }
+  .contact-form {
+    padding: 1rem;
+  }
+}
