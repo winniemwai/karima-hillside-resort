@@ -126,7 +126,7 @@ img {
   grid-template-columns: repeat(1fr);
   max-width: 800px;
   line-height: 2;
-  background-color: #f7d7ff;
+  background-color: plum;
   padding: 2rem;
   border-radius: 8px;
 }
