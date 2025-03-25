@@ -147,41 +147,6 @@ img {
   grid-template-columns: 1fr;
   gap: 2rem;
 }
-.crops,
-.animals,
-.fruits {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: auto;
-  gap: 1rem;
-}
-.crops h3,
-.animals h3,
-.fruits h3 {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
-  color: darkorange;
-  text-align: center;
-  font-family: dancing script;
-  font-weight: 800;
-}
-.crop-item,
-.fruit-item,
-.animal-item {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1rem;
-}
-.crop-item h4,
-.animal-item h4,
-.fruit-item h4 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: darkslategray;
-}
-
 .camping {
   padding: 2rem 0;
   max-width: 1200px;
