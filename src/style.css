@@ -13,7 +13,7 @@ body {
   );
 }
 header {
-  background-color: darkgreen;
+  background-color: #18230f;
   color: white;
   padding: 1rem 0;
   position: sticky;
@@ -141,7 +141,7 @@ img {
 }
 .garden {
   padding: 2rem 0;
-  background-color: #3f7d58;
+  background-color: #27391c;
 }
 .garden h2 {
   font-size: 2.5rem;
@@ -163,7 +163,7 @@ img {
   border-radius: 10px;
   display: grid;
   place-items: center;
-  background-color: darkolivegreen;
+  background-color: #255f38;
 }
 .camping h2 {
   font-size: 2.5rem;
@@ -181,7 +181,7 @@ img {
 }
 .contact {
   padding: 2rem 0;
-  background-color: #6f866c;
+  background-color: #1f7d53;
   display: grid;
   place-items: center;
 }
@@ -228,7 +228,7 @@ img {
   background-color: lightgreen;
 }
 footer {
-  background-color: darkgreen;
+  background-color: #18230f;
   color: white;
   text-align: center;
   padding: 1rem 0;
