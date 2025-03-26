@@ -149,6 +149,22 @@ img {
   margin-bottom: 1rem;
   color: white;
 }
+.garden p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.garden-items figure {
+  margin: 0;
+}
+
+.garden-items figcaption {
+  font-size: 1.1em;
+  color: whitesmoke;
+}
+
 .camping {
   padding: 2rem 0;
   max-width: 1200px;
