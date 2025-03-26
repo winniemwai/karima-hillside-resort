@@ -131,6 +131,9 @@ img {
   padding: 2rem;
   border-radius: 8px;
   background-image: url("flower4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .garden {
   padding: 2rem 0;
