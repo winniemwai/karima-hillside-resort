@@ -113,7 +113,7 @@ img {
 .about {
   padding: 2rem 0;
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 2rem;
   display: grid;
   place-items: center;
   border-radius: 8px;
@@ -186,7 +186,8 @@ img {
   border-radius: 10px;
   background-color: white;
   display: grid;
-  padding: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .contact {
   padding: 2rem 0;
